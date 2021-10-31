@@ -1,2 +1,2 @@
 
-H.yuki
+H.yukiのNext.jsを学ぶための作品です
