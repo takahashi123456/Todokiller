@@ -6,12 +6,17 @@ import MyDialog from "../components/Modal";
 type Todo = {
     val: boolean;
     taskOn: boolean;
+    modal: boolean;
 }
 
 export default function Todo() {
-    const [val, setVal] = React.useState(1);
+    const [val, setVal] = React.useState(true);
     const clickTask = () => {
-        setVal(val + 1);
+        setVal(!val);
+    }
+    const [modal, setModal] = React.useState(true);
+    const clickModal = () => {
+        setModal(!modal);
     }
     return (
 

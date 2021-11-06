@@ -20,8 +20,8 @@ export const Bottom_menu: React.FC<Props> = ({ taskOn }) => {
                     </ul>
                     :
                     <ul className="flex text-center border-t-2 bg-gray-100 h-full">
-                        < li className="w-1/2 h-10 flex justify-center items-center">編集</li>
-                        < li className="w-1/2 h-10 flex justify-center items-center">消毒</li>
+                        < li className="w-1/2 h-10 flex justify-center items-center pt-3 text-blue-500 text-lg">編集</li>
+                        < li className="w-1/2 h-10 flex justify-center items-center pt-3 text-blue-500 text-lg">消毒</li>
                     </ul>
                 }
             </div>
