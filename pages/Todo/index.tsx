@@ -1,5 +1,6 @@
 import Bottom_menu from "../components/Common/Bottom_menu";
 import Header from "../components/Common/Header";
+import { TodoItem } from "../components/Todo";
 import React, { useState } from "react";
 import MyDialog from "../components/Modal";
 
@@ -25,6 +26,7 @@ export default function Todo() {
             <div className="container">
                 <h1 onClick={clickTask}> Todo </h1>
             </div>
+            <TodoItem />
             <Bottom_menu taskOn={val} />
             <MyDialog />
         </>

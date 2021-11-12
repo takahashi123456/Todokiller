@@ -74,6 +74,11 @@ export default function MyModal() {
                                         an email with all of the details of your order.
                                         ここはサンプルテキストです
                                     </p>
+                                    <label>
+                                        <input
+                                            type="text"
+                                        />
+                                    </label>
                                 </div>
 
                                 <div className="mt-4">

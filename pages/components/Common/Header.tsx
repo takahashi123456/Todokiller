@@ -15,9 +15,9 @@ export default function Header() {
 
     return (
 
-        <header className="container mx-auto bg-gray-100">
-            <div className="flex justify-between items-center">
-                <h1 className="text-4xl font-semibold">HR</h1>
+        <header className=" mx-auto bg-gray-100">
+            <div className="container flex justify-between items-center">
+                <h1 className="text-4xl font-semibold pl-16">HR</h1>
                 <div>
                     <button onClick={() => Menu()}>
                         <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
